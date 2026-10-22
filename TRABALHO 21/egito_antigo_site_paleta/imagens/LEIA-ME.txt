@@ -1,0 +1,1 @@
+Pasta para imagens locais opcionais. As imagens atuais são carregadas por URLs externas no HTML/CSS.

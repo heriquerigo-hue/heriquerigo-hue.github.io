@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Uma viagem visual pelo Egito Antigo: civilização, deuses, monumentos e legado.">
+  <title>Egito Antigo — Uma civilização eterna</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Manrope:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/main.js" defer></script>
+</head>
+<body>
+  <div class="preloader" aria-hidden="true"><span class="preloader-mark">𓂀</span><span>EGITO ANTIGO</span></div>
+  <header class="site-header">
+    <a class="brand brand-wordmark" href="index.html" aria-label="Egito Antigo, página inicial"><span>EGITO <b>ANTIGO</b></span></a>
+    <button class="menu-toggle" aria-label="Abrir menu" aria-expanded="false"><span></span><span></span></button>
+    <nav class="main-nav" aria-label="Navegação principal">
+      <a class="active" href="index.html">Início</a>
+      <a href="civilizacao.html">Civilização</a>
+      <a href="deuses-e-cultura.html">Deuses & Cultura</a>
+      <a href="legado.html">Legado</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero hero-home">
+      <div class="hero-still" role="img" aria-label="Pirâmides de Gizé ao entardecer"></div>
+      <div class="hero-shade"></div>
+      <div class="hero-content reveal"><h1>EGITO<br><em>ANTIGO</em></h1><a class="button button-gold" href="#descobrir">Saiba mais <span>↘</span></a></div>
+    </section>
+
+    <section class="intro section-pad">
+      <div class="section-kicker">01 — O COMEÇO DE TUDO</div>
+      <div class="intro-grid">
+        <div><h2 class="display-title">Onde o tempo<br><em>se tornou eterno.</em></h2></div>
+        <div class="intro-copy"><p class="lead">Às margens do Nilo, nasceu uma das civilizações mais fascinantes da humanidade.</p><p>Por milênios, o Egito Antigo transformou a paisagem, observou os céus, ergueu monumentos colossais e desenvolveu uma cultura na qual a vida, a morte e a eternidade estavam profundamente conectadas.</p><a class="text-link" href="civilizacao.html">Conheça essa história <span>↗</span></a></div>
+      </div>
+      <div class="stats-row">
+        <div class="stat"><strong data-count="3000">0</strong><span>anos de história<br>aproximadamente</span></div>
+        <div class="stat"><strong>𓈖</strong><span>o Nilo, fonte de<br>vida e prosperidade</span></div>
+        <div class="stat"><strong>𓂀</strong><span>símbolos de uma<br>cultura extraordinária</span></div>
+      </div>
+    </section>
+
+    <section class="feature-band">
+      <div class="feature-image" role="img" aria-label="Pirâmides no deserto egípcio"></div>
+      <div class="feature-panel"><p class="eyebrow">UM MUNDO DE SIGNIFICADOS</p><h2>Mais do que<br><em>monumentos.</em></h2><p>Uma sociedade organizada, uma religião complexa e conhecimentos que atravessaram séculos. Cada pedra, símbolo e ritual revela uma parte dessa história.</p><a class="button button-outline" href="deuses-e-cultura.html">Entrar nesse universo <span>↗</span></a></div>
+    </section>
+
+    <section class="discover section-pad" id="descobrir">
+      <div class="section-heading"><div><div class="section-kicker">02 — EXPLORE</div><h2 class="display-title">Quatro caminhos.<br><em>Uma civilização.</em></h2></div><p>Descubra as ideias, as crenças e as realizações que fizeram do Egito Antigo um legado singular.</p></div>
+      <div class="destination-grid">
+        <a class="destination-card" href="civilizacao.html"><img src="https://images.unsplash.com/photo-1568322445389-f64ac2515020?auto=format&fit=crop&w=1000&q=85" alt="Paisagem do rio Nilo no Egito" loading="lazy"><span class="card-number">01 / ORIGENS</span><h3>A civilização</h3><span class="card-arrow">↗</span></a>
+        <a class="destination-card" href="deuses-e-cultura.html"><img src="https://images.unsplash.com/photo-1603565816030-6b389eeb23cb?auto=format&fit=crop&w=1000&q=85" alt="Escultura inspirada na arte egípcia" loading="lazy"><span class="card-number">02 / CRENÇAS</span><h3>Deuses & cultura</h3><span class="card-arrow">↗</span></a>
+        <a class="destination-card" href="legado.html"><img src="https://images.unsplash.com/photo-1503177119275-0aa32b3a9368?auto=format&fit=crop&w=1000&q=85" alt="Grande pirâmide de Gizé" loading="lazy"><span class="card-number">03 / ETERNIDADE</span><h3>O legado</h3><span class="card-arrow">↗</span></a>
+      </div>
+    </section>
+
+    <section class="quiz-section section-pad" id="quiz-egito">
+      <div class="quiz-intro"><div class="section-kicker">UM DESAFIO RÁPIDO</div><h2 class="display-title">O quanto você<br><em>conhece o Egito?</em></h2><p>Teste seus conhecimentos com cinco perguntas e descubra sua pontuação.</p></div>
+      <div class="quiz-card" id="egypt-quiz">
+        <div class="quiz-progress"><span id="quiz-step">PERGUNTA 1 DE 5</span><span id="quiz-score">0 PONTOS</span></div>
+        <h3 id="quiz-question">Qual rio foi essencial para a agricultura egípcia?</h3>
+        <div class="quiz-options" id="quiz-options">
+          <button type="button" data-answer="0">Rio Tigre</button><button type="button" data-answer="1">Rio Nilo</button><button type="button" data-answer="2">Rio Eufrates</button>
+        </div>
+        <p class="quiz-feedback" id="quiz-feedback" aria-live="polite">Escolha uma alternativa para continuar.</p>
+        <button type="button" class="button button-gold quiz-next" id="quiz-next" disabled>Próxima pergunta <span>↗</span></button>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+  <p class="footer-phrase">Uma civilização que atravessou milênios.<br><em>Uma história que continua viva.</em></p>
+  <div class="footer-bottom"><span>Projeto desenvolvido no IFC — Instituto Federal Catarinense</span><span>por Maísa Mengatto, Henrique Rigo e Taila Faccin</span><span class="footer-year">WEB DESIGN & MULTIMÍDIA · 1º ANO</span></div>
+</footer>
+</body>
+</html>
